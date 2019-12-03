@@ -301,15 +301,15 @@ footer {
     width: 50%;
     margin-bottom: 1em;
     @include transition();
+    
+    &:link {
+        color: #fff;
+        text-decoration: none;
+    }
 
     &:hover {
         color: $base-color;
         background: #fff;
-        text-decoration: none;
-    }
-    
-    &:link {
-        color: $base-color;
         text-decoration: none;
     }
    
