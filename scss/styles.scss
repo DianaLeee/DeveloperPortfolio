@@ -350,6 +350,10 @@ footer {
     background: $background-alt;
 }
 
+.top-icon-color {
+    color: #fff;
+}
+
 /*
     --------------------------
     ----- 4. Lead Styles -----
@@ -393,6 +397,16 @@ footer {
         font-size: 2.25em;
         margin-bottom: 15px;
     }
+}
+
+#lead-content-below {
+    position: absolute;
+    z-index: 10;
+    top: 80%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #lead-overlay {
